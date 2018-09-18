@@ -235,7 +235,7 @@ Data EEPROM Memory  [Origin = 0x7ffc00, Length = 0x400]
 
 section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
-_0399496059fd4dbb         0x7ffc00                0x80            0x80  (128)
+_050B29605ba04e39         0x7ffc00                0x80            0x80  (128)
 
                  Total data EEPROM used (bytes):           0x80  (128) 12%
 
@@ -1094,24 +1094,24 @@ userdata
 .comment
  *(.comment)
 
-.debug_info       0x000000       0x6c9f
+.debug_info       0x000000       0x6c7f
  *(.debug_info)
- .debug_info      0x000000        0x57c build/Pickit/production/Application/motor.o
- .debug_info      0x00057c        0x1f9 build/Pickit/production/Application/dta_motor.o
- .debug_info      0x000775        0x28c build/Pickit/production/Application/step.o
- .debug_info      0x000a01        0x323 build/Pickit/production/Driver/driver.o
- .debug_info      0x000d24        0x4ba build/Pickit/production/Driver/eeprom.o
- .debug_info      0x0011de        0xed6 build/Pickit/production/Driver/encoder.o
- .debug_info      0x0020b4        0xb10 build/Pickit/production/Driver/ports.o
- .debug_info      0x002bc4       0x110b build/Pickit/production/Driver/pwm.o
- .debug_info      0x003ccf        0x51f build/Pickit/production/Driver/timer.o
- .debug_info      0x0041ee        0xec9 build/Pickit/production/Driver/uart.o
- .debug_info      0x0050b7         0xbc build/Pickit/production/Setting/configuration.o
- .debug_info      0x005173        0x142 build/Pickit/production/main.o
- .debug_info      0x0052b5        0xfef build/Pickit/production/Driver/io.o
- .debug_info      0x0062a4        0x6f7 build/Pickit/production/Task/system.o
- .debug_info      0x00699b        0x1ba build/Pickit/production/Task/task.o
- .debug_info      0x006b55        0x14a build/Pickit/production/Task/motor.o
+ .debug_info      0x000000        0x57a build/Pickit/production/Application/motor.o
+ .debug_info      0x00057a        0x1f7 build/Pickit/production/Application/dta_motor.o
+ .debug_info      0x000771        0x28a build/Pickit/production/Application/step.o
+ .debug_info      0x0009fb        0x321 build/Pickit/production/Driver/driver.o
+ .debug_info      0x000d1c        0x4b8 build/Pickit/production/Driver/eeprom.o
+ .debug_info      0x0011d4        0xed4 build/Pickit/production/Driver/encoder.o
+ .debug_info      0x0020a8        0xb0e build/Pickit/production/Driver/ports.o
+ .debug_info      0x002bb6       0x1109 build/Pickit/production/Driver/pwm.o
+ .debug_info      0x003cbf        0x51d build/Pickit/production/Driver/timer.o
+ .debug_info      0x0041dc        0xec7 build/Pickit/production/Driver/uart.o
+ .debug_info      0x0050a3         0xba build/Pickit/production/Setting/configuration.o
+ .debug_info      0x00515d        0x140 build/Pickit/production/main.o
+ .debug_info      0x00529d        0xfed build/Pickit/production/Driver/io.o
+ .debug_info      0x00628a        0x6f5 build/Pickit/production/Task/system.o
+ .debug_info      0x00697f        0x1b8 build/Pickit/production/Task/task.o
+ .debug_info      0x006b37        0x148 build/Pickit/production/Task/motor.o
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev     0x000000        0xf49
@@ -2397,8 +2397,8 @@ __c30_signature
 .shared.dinit     0x00396a          0x2
  .shared.dinit    0x00396a          0x2 shared_data_init
 
-_0399496059fd4dbb
+_050B29605ba04e39
                     0xfc00         0x80 load address 0x7ffc00  
- _0399496059fd4dbb
+ _050B29605ba04e39
                     0xfc00         0x80 build/Pickit/production/Driver/eeprom.o
                     0xfc00                  _system_file

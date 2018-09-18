@@ -302,7 +302,7 @@ int motor_control(int argc, char** argv){
     int32_t speed=0,rpm=atoi(argv[1]);
     speed=(int)(RAD*rpm*get_period_s()/60);//[rpm]->[pulse/pid_period]
     set_motor_speed(speed);
-    set_event(&motor_ac);
+    set_event(&motor);
     return 0;
 }
 
@@ -395,7 +395,7 @@ int mc_go(int argc,char** argv){
     if(link_enable==true){
         link_enable=false;
         set_motor_speed(link_speed);
-        set_event(&motor_ac);
+        set_event(&motor);
     }
     return 0;
 }
@@ -403,7 +403,7 @@ int mc_go(int argc,char** argv){
 int mc_stop(int argc,char** argv){
         link_enable=false;
         set_motor_speed(0);
-        set_event(&motor_ac);
+        set_event(&motor);
     return 0;
 }
 
